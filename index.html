@@ -24,54 +24,87 @@
 </head>
 
 <body>
-    <!-- Starting Navbar -->
-        <header class=" navbar-expand-lg  navbar-light bg-white my-auto">
-            <div class="d-flex justify-content-between mt-3 mx-sm-5 ">
-                <a class="navbar-brand" href="#"><img src="./assets/img/logo_vinyl.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <nav class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <div class="d-flex justify-content-between  w-100">
-                        <ul class="navbar-nav mx-auto pl-5 w-50 d-flex">
-                            <li class="nav-item ml-5 mr-3">
-                                <a class="nav-link text-dark" href="#">DISCOVER</a>
-                            </li>
-                            <li class="nav-item  mx-3">
-                                <a class="nav-link text-dark" href="#">SEARCH</a>
-                            </li>
-                            <li class="nav-item  mx-3">
-                                <a class="nav-link text-dark" href="#">ABOUT US</a>
-                            </li>
-                            <li class="nav-item   mx-3">
-                                <a class="nav-link text-dark" href="#">CART</a>
-                            </li>
-        
-                        </ul>
-                        <a class="nav-link text-dark" href="#">LOG IN</a>
-                        <a class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white" data-toggle="modal" data-target="#exampleModal">
-                                    MAKE A RECORD
-                        </a>
-                    </div>
-                    
-                </nav>
+    <!-- INICIO DEL HEADER -->
+    <header class=" navbar-expand-lg max-width-1500 mx-auto navbar-light bg-white my-auto">
+        <div class="d-flex justify-content-between mt-3 mx-sm-5 ">
+            <a class="navbar-brand" href="#"><img src="./assets/img/logo_vinyl.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <nav class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="d-flex justify-content-between  w-100">
+                    <ul class="navbar-nav mx-auto pl-5 w-50 d-flex">
+                        <li class="nav-item ml-5 mr-3">
+                            <a class="nav-link text-dark" href="#">DISCOVER</a>
+                        </li>
+                        <li class="nav-item  mx-3">
+                            <a class="nav-link text-dark" href="#">SEARCH</a>
+                        </li>
+                        <li class="nav-item  mx-3">
+                            <a class="nav-link text-dark" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item   mx-3">
+                            <a class="nav-link text-dark" href="#">CART</a>
+                        </li>
+    
+                    </ul>
+                    <a class="nav-link text-dark" href="#">LOG IN</a>
+                    <a class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white" data-toggle="modal" data-target="#exampleModal">
+                                MAKE A RECORD
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+    <!-- FIN DEL HEADER -->
+    
+    <main class="mt-5">
+        <div class="container pl-5  d-flex flex-column my-5">
+            <!-- Primera fila -->
+            <div class="row  d-flex align-items-center">
+              <!-- Columna izquierda -->
+              <div class="col-md-5 mb-5">
+                <a class="btn border border-dark rounded-0 px-4 py-auto" data-toggle="modal" data-target="#exampleModal">
+                    Why Vinyls
+                </a>
+                <h1 class="fs-4 mt-5">Your Music on vinyl. Without the barriers</h1>
+                <h5>Full-service pressing, a global retail network, customer support - and you keep up to 85% of profits  </h5>
+              </div>
+              <!-- Columna derecha -->
+              <div class="col-md-7">
+                <img src="./assets/img/vinyl1.jpg" alt="Imagen" class="border border-dark ml-5 z-index-0 img-vinyls ">
+              </div>
             </div>
-        </header>
+        
+            <!-- Segunda fila -->
+            <div class="row  d-flex margin-negative align-items-center justify-content-around">
+                <!-- Columna izquierda -->
+                <div>
 
-    <!-- Starting carosel -->
-    <main>
-        <div class="container mt-5">
+                </div>
+                <div class="col-md-6">
+                  <img src="./assets/img/vinyl2.jpg" alt="Imagen Girada" class="border border-dark img-vinyls z-index-1 ">
+                </div>
+                <!-- Columna derecha -->
+                <div class="col-md-4 pt-5">
+                  <img src="./assets/img/vinyl_records.png" class=" pt-3" alt="">
+                </div>
+              </div>
+        </div>
+
+        <!-- INICIO DEL CARROUSEL -->
+        <div class="container carrousel mt-5">
             <div class="card m-3 shadow" style="width: 18rem;">
                 <img class="card-img-top"
                     src="./assets/img/vinilo1.jpg"
                     alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Nostalgia en Vinilo</h5>
+                    <p class="card-text">Sumérgete en la nostalgia con esta colección de vinilos que trae de vuelta los éxitos atemporales.</p>
+                    <a href="#" class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white">Learn More</a>
                 </div>
             </div>
 
@@ -80,10 +113,9 @@
                     src="./assets/img/vinilo2.jpg"
                     alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Un viaje analógico</h5>
+                    <p class="card-text">Descubre la calidez única del sonido analógico con esta selección de vinilos acústicos.</p>
+                    <a href="#" class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white">Learn More</a>
                 </div>
             </div>
             <div class="card m-3 shadow" style="width: 18rem;">
@@ -91,10 +123,9 @@
                     src="./assets/img/vinilo3.jpg"
                     alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title"> Sonidos Seductores</h5>
+                    <p class="card-text">Crea el ambiente perfecto con esta serie de vinilos. Desde suaves melodías hasta ritmos vibrantes.</p>
+                    <a href="#" class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white">Learn More</a>
                 </div>
             </div>
             <div class="card m-3 shadow" style="width: 18rem;">
@@ -102,20 +133,18 @@
                     src="./assets/img/vinilo4.jpg"
                     alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Tesoros Musicales Exclusivos</h5>
+                    <p class="card-text">Consigue los exclusivos vinilos de tus artistas favoritos. ¡Son joyas musicas!</p>
+                    <a href="#" class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white">Learn More</a>
                 </div>
             </div>
             <div class="card m-3 shadow" style="width: 18rem;">
                 <img class="card-img-top"
                     src="./assets/img/vinilo5.jpg">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title"> Sonidos Underground</h5>
+                    <p class="card-text">Explora el mundo a través de los vinilos.Desde bandas emergentes hasta artistas atemporales.</p>
+                    <a href="#" class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white">Learn More</a>
                 </div>
             </div>
             <div class="card m-3 shadow" style="width: 18rem;">
@@ -123,24 +152,19 @@
                     src="./assets/img/vinilo6.jpg"
                     alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title"> Ritmos Irresistibles</h5>
+                    <p class="card-text">Desde la música disco hasta los beats más modernos, estos vinilos te invitan a disfrutar de la música.</p>
+                    <a href="#" class="btn btn-dark bg-black rounded-pill px-4 py-auto text-white">Learn More</a>
                 </div>
             </div>
         </div>
-
+        <!-- FIN DEL CARROUSEL -->
+        
+        
 
     </main>
 
-    <article>
-        
-    </article>
-
-
-
-
+    <!-- INICIO DEL FOOTER -->
     <footer class="footer_content shadow">
         <ul class="footer-ul">
             <li><a href="">Home</a></li>
@@ -150,7 +174,7 @@
             <li><a href="">Privacy Policy</a></li>
         </ul>
     </footer>
-
+    <!-- FIN DEL FOOTER -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -172,7 +196,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.container').slick({
+            $('.carrousel').slick({
                 slidesToShow: 3,
                 slidesToScroll: 2,
                 autoplay: true,
