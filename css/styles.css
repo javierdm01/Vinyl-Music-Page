@@ -19,6 +19,40 @@ body{
     z-index: 0; 
     rotate: 5deg;
 }
+.fs-0{
+    font-size: 52px;
+    font-weight: bold;
+}
+.fs-subtit{
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+.bg-yellow{
+    background-color: yellow;
+    height: 150px;
+    margin: auto;
+    max-width: 2000px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.border-2{
+    border: 2px solid black;
+}
+.bg-black{
+    background-color: black;
+    max-width: 2000px;
+}
+.bg-vote{
+    background-image: url(../assets/img/vote_fans.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.bg-grey{
+    background-color: #E4E5DE;
+    border-bottom: 2px solid black;
+}
 .margin-negative{
     margin-top: -150px;
 }
@@ -35,6 +69,10 @@ body{
     height: 55%;
     background-size: contain;
     padding: 0;
+}
+.vinyls_fans{
+    width: 450px;
+    rotate: -10deg;
 }
 .card-tall{
     height: 520px;
@@ -87,55 +125,6 @@ footer {
     font-family: 'Open Sans', sans-serif;
 }
 
-#some-box h1 {
-    text-align: center;
-}
-
-#some-box h3 {
-    font-size: 50px;
-}
-
-#some-box a {
-    color: #70BCB8;
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
-}
-
-#some-box a:hover {
-    color: #8E7BB2;
-}
-.bg-black{
-    background-color: black;
-}
-
-article.row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 45px 0;
-    /* background-color: green; */
-}
-
-article.row div {
-    width: 49.4%;
-    display: inline-block;
-    position: relative;
-    border: 1px solid white;
-}
-
-.artical-img{
-    height: 250px;
-    width: 300px;
-}
-
-#subBtn {
-    margin-top: 25px;
-}
-
-.cardText {
-    border-radius: 10px;
-}
 
 
 @media(max-width:750px) {
