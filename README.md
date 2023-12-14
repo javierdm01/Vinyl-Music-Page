@@ -6,3 +6,6 @@ Attention: This page only contains the layout and design, it does not have any f
 
 # Technologys
     -Bootstrap
+    -HTML
+    -CSS
+    -JS
