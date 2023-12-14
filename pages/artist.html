@@ -39,10 +39,10 @@
                             <a class="nav-link text-center text-dark" href="./discover.html">DISCOVER</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-center text-dark" href="./artist.html">FOR ARTIST</a>
+                            <a class="nav-link text-center text-dark" href="#">FOR ARTIST</a>
                         </li>
                         <li class="nav-item"> 
-                            <a class="nav-link text-center text-dark" href="#">FOR FANS</a>
+                            <a class="nav-link text-center text-dark" href="./fans.html">FOR FANS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-center text-dark" href="#">LOG IN</a>
@@ -60,42 +60,67 @@
     </header>
     <!-- FIN DEL HEADER -->
     <!-- INICIO DEL MAIN -->
-    <main class="mt-5">
-        <section class="container pl-5  d-flex flex-column my-5">
+    <main class="mt-5 bg-black text-light mx-auto">
+        <section class="container pl-5  d-flex flex-column my-5 pb-5    ">
             <!-- Primera fila -->
             <div class="row  d-flex align-items-center  justify-content-around">
               <!-- Columna izquierda -->
-              <div class="col-md-5 mb-5">
-                <a class="btn border-2 rounded-0 px-4 py-auto" data-toggle="modal" data-target="#exampleModal">
+              <div class="col-md-5 my-5">
+                <a href="#" class="text-light border border-light text-decoration-none py-2 rounded-0 px-4 py-auto" data-toggle="modal" data-target="#exampleModal">
                     For Fans
                 </a>
                 <h1 class="fs-0 mt-5">Music community and platform for people who love analog media</h1>
                 <h5 class="fs-subtit">We are the number 1 vinyl sales platform in Spain and expanding throughout the world thanks to the tastes of our consumers. Thank you  </h5>
               </div>
               <!-- Columna derecha -->
-              <div class="col-md-4 ">
-                <img src="../assets/img/vinyls_fans.jpg" alt="Imagen" class=" ml-5 z-index-1 vinyls_fans border-2">
+              <div class="col-md-6 my-5">
+                <img src="../assets/img/vinyls_artist.jpg" alt="Imagen" class=" ml-5 z-index-0 img-fluid border-2 z-1">
               </div>
             </div>
-        </section>
-        
-        <section class="bg-yellow col-lg-12 ">
-            <h1 class="fs-1 fw-bold text-center mt-5">We connect artists and fans directly</h1>
+             <!-- Segunda fila -->
+             <div class="row  d-flex margin-negative align-items-center justify-content-around">
+                <!-- Columna izquierda -->
+                <div class="col-lg-2">
+
+                </div>
+                <div class="col-md-5">
+                  <img src="../assets/img/vinyls_artist3.jpg" alt="Imagen Girada" class="border border-dark img-fluid  z-0">
+                </div>
+                <!-- Columna derecha -->
+                <div class="col-md-4 pt-5 ">
+                  <img src="../assets/img/vinyl_records_inverter.png" class="w-100 pt-3" alt="">
+                </div>
+              </div>
         </section>
 
-        <section class="bg-grey d-flex justify-content-around">
-            <div class="col-lg-4 bg-vote mt-5">
-                
+        <section class="bg-grey text-dark d-flex flex-column my-5 ">
+            <div class="col-lg-12 my-5 d-flex justify-content-center align-items-center ">
+                <h1 class="fs-1 fw-bold text-center">Stay updated on all new topics with our website.</h1>
             </div>
-            <div class="col-lg-4 d-flex flex-column mt-5">
-                <a class="btn border-2 rounded-0 px-3 mt-5 py-auto bg-white col-lg-2 fw-bold" data-toggle="modal" data-target="#exampleModal">
-                    Features
-                </a>
-                <h1 class="fs-1 mt-5 fw-bold">Stay updated on all new topics with our website.</h1>
+            <div class="col-lg-12 d-flex   border-2 border-end-0 border-start-0 border-bottom-0">
+                <div class="col-lg-6 d-flex flex-column  py-5 border-2 border-top-0 border-start-0 border-bottom-0">
+                    <h2 class="text-center fw-bold fs-1">Vinyl</h2>
+                    <p class="text-center w-50 mx-auto my-4">We know how special vinyl is to fans, that's why we do everything we can to make it as easy as possible for artists to create their music.</p>
+                    <img src="../assets/img/disc_artist.webp" class="mx-auto w-50" alt="disc_artist">
+                </div>
+                <div class="col-lg-6 d-flex flex-column py-5 ">
+                    <h2 class="text-center fw-bold fs-1">Cassette</h2>
+                    <p class="text-center w-50 mx-auto my-4">We know how special cassettes is to fans, that's why we do everything we can to make it as easy as possible for artists to create their music.</p>
+                    <img src="../assets/img/cassete.webp" class="w-50 mx-auto" alt="cassete">
+                </div>
             </div>
         </section>
         
-       
+        <section class="bg-black text-white d-flex flex-column my-5">
+            <a href="#" class="text-light border mt-4 border-light text-decoration-none py-2 rounded-0 px-4 py-auto mx-auto" data-toggle="modal" data-target="#exampleModal">
+                TRY IT NOW
+            </a>
+            <h2 class="text-center fw-bold fs-1 mt-5">We make your project a reality</h2>
+            <p class="text-center w-50 mx-auto fs-5 my-4">Design the look and feel of your vinyl and cassette and use the profit calculator to immediately see how much your project will cost, and how much you'll earn.</p>
+            <img src="../assets/img/vinyl_transparent1.png" id="vinilos" class="w-25 img-fluid mx-auto" alt="vinilos">
+            <button class="btn btn-yellow col-lg-2 rounded-pill px-4 my-5 text-black py-3 text-black fw-bold mx-auto " data-toggle="modal"
+                            data-target="#exampleModal">TRY IT NOW</button>
+        </section>
         
         
 
@@ -114,6 +139,7 @@
     <!-- FIN DEL FOOTER -->
 
     <!-- Optional JavaScript -->
+    <script src="../js/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
