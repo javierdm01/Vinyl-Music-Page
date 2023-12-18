@@ -9,3 +9,5 @@ Attention: This page only contains the layout and design, it does not have any f
     -HTML
     -CSS
     -JS
+#Try It
+[TRY ME](https://javierdm01.github.io/Vinyl-Music-Page/)
